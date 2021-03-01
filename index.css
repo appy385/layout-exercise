@@ -1,0 +1,26 @@
+body {    
+    margin: 0 ;
+    padding: 0;
+}
+header {
+    background-color: #2E8B57;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: black;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+nav li {
+    padding: 10px;
+    color: blanchedalmond;
+}
+
