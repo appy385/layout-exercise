@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #2E8B57;
+    background-color: #A1C4FD;
     text-align: center;
     padding: 20px;
 }
@@ -22,5 +22,33 @@ nav>ul {
 nav li {
     padding: 10px;
     color: blanchedalmond;
+}
+main{
+    display: flex;
+    flex-direction: row;  
+}
+main>article {
+    padding-left: 10px;
+}
+
+
+.leftArticle{
+    background-color:	#DCDCDC;
+    flex: 30%;
+}
+.rightArticle{
+    flex: 70%;
+}
+
+section>h1 {
+   font-size: 30px;
+}
+section>p{
+    display: block;
+    text-align:left;
+
+}
+section>img{
+    padding-bottom: 20px;
 }
 
